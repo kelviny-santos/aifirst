@@ -22,6 +22,7 @@ if (!function_exists('wp_insert_post')) {
 require_once ABSPATH . 'wp-admin/includes/plugin-install.php';
 require_once ABSPATH . 'wp-admin/includes/class-wp-upgrader.php';
 require_once ABSPATH . 'wp-admin/includes/plugin.php';
+require_once ABSPATH . 'wp-admin/includes/theme.php';
 require_once ABSPATH . 'wp-admin/includes/theme-install.php';
 require_once ABSPATH . 'wp-admin/includes/class-theme-upgrader.php';
 require_once ABSPATH . 'wp-admin/includes/file.php';
